@@ -71,9 +71,18 @@ pre {
   background: #2d2d2d;
   padding: 10px;
   border-radius: 6px;
-  /* ✅ plus de scroll horizontal */
+
+  /* ✅ plus de débordement */
+  white-space: pre-wrap;      /* conserve les sauts de ligne mais autorise le wrap */
+  word-wrap: break-word;      /* casse les mots trop longs */
+  overflow-wrap: anywhere;    /* casse même au milieu si nécessaire */
+}
+
+code {
+  display: block;
   white-space: pre-wrap;
   word-wrap: break-word;
+  overflow-wrap: anywhere;
 }
 
 footer {
