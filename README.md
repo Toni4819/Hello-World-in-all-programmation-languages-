@@ -1,1 +1,0 @@
-# Hello-World-in-all-programmation-languages
